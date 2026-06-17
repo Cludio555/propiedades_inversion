@@ -26,10 +26,10 @@ function App() {
           element={<WhyArgentinaPage />}
         />
 
-        <Route
-          path="/ServicesPage"
-          element={<ServicesPage />}
-        />
+		<Route
+			path="/services"
+			element={<ServicesPage />}
+		/>
 
         <Route
           path="/about"
