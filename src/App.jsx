@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-
+import 'bootstrap/dist/css/bootstrap.min.css'
 import Header from './components/Header/Header';
 
 import HomePage from './pages/HomePage';
@@ -27,7 +27,7 @@ function App() {
         />
 
         <Route
-          path="/services"
+          path="/ServicesPage"
           element={<ServicesPage />}
         />
 

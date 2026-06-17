@@ -1,0 +1,13 @@
+Iniciar proyecto..: npm run dev
+Detener proyecto..: Ctrl + c
+
+-----------------------------------------------
+Pasos para subir modificaciones
+
+1) Prepara todos los archivos nuevos y modificados:
+-- git add .
+2) Ponle un nombre a este paquete de cambios:
+-- git commit -m "Agregado sistema de navegacion y formulario de contacto"
+git commit -m "Retoques en los textos03"
+3) Sube el código a tu repositorio existente:.
+-- git push origin main
