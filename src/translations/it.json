@@ -43,5 +43,26 @@
 "contact_email_placeholder": "[nome@esempio.com](mailto:nome@esempio.com)",
 "contact_message_label": "Scrivi il tuo messaggio",
 "contact_message_placeholder": "...",
-"contact_send": "Invia messaggio"
+"contact_send": "Invia messaggio",
+"about_title": "Chi Sono",
+
+"about_subtitle": "Il tuo partner di fiducia in Argentina",
+
+"about_p1": "Mi chiamo Claudio Ríos e nel corso della mia carriera professionale mi sono specializzato in Finanza e Sistemi Informatici.",
+
+"about_p2": "Dopo molti anni di esperienza, ho deciso di intraprendere una nuova fase professionale dedicata ad assistere acquirenti e investitori internazionali interessati alle opportunità offerte dall'Argentina.",
+
+"about_p3": "So che acquistare una proprietà o accedere ai mercati finanziari significa molto più che prendere una semplice decisione economica. Richiede conoscenza del territorio, trasparenza e una persona di fiducia che possa accompagnarti durante tutto il processo.",
+
+"about_values": "Cosa offro",
+
+"about_value1": "Assistenza personalizzata.",
+
+"about_value2": "Conoscenza del mercato locale e consulenza indipendente.",
+
+"about_value3": "Supporto durante l'intero processo.",
+
+"about_value4": "Relazioni a lungo termine basate sulla fiducia.",
+
+"about_footer": "Il mio impegno non è solo aiutarti a investire in Argentina, ma offrirti fiducia e supporto in ogni fase del percorso."
 }

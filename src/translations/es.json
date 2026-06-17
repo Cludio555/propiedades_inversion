@@ -43,5 +43,26 @@
 "contact_email_placeholder": "[nombre@ejemplo.com](mailto:nombre@ejemplo.com)",
 "contact_message_label": "Envíame tu consulta",
 "contact_message_placeholder": "...",
-"contact_send": "Enviar mensaje"
+"contact_send": "Enviar mensaje",
+"about_title": "Sobre Mí",
+
+"about_subtitle": "Su socio local de confianza en Argentina",
+
+"about_p1": "Mi nombre es Claudio Ríos y durante mi trayectoria profesional me he especializado en Finanzas y Sistemas.",
+
+"about_p2": "Luego de muchos años de experiencia, decidí iniciar una nueva etapa dedicada a acompañar a compradores e inversores internacionales interesados en las oportunidades que ofrece Argentina.",
+
+"about_p3": "Entiendo que comprar una propiedad o acceder a los mercados financieros implica mucho más que una decisión económica. Requiere conocimiento local, transparencia y alguien de confianza que pueda acompañarlo durante todo el proceso.",
+
+"about_values": "Lo que ofrezco",
+
+"about_value1": "Atención personalizada.",
+
+"about_value2": "Conocimiento local y asesoramiento independiente.",
+
+"about_value3": "Acompañamiento durante todo el proceso.",
+
+"about_value4": "Relaciones de largo plazo basadas en la confianza.",
+
+"about_footer": "Mi compromiso no es solamente ayudarlo a invertir en Argentina, sino brindarle confianza y acompañamiento en cada paso del camino."
 }

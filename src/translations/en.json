@@ -43,5 +43,26 @@
   "contact_email_placeholder": "name@example.com",
   "contact_message_label": "Your Message",
   "contact_message_placeholder": "...",
-  "contact_send": "Send Message"
+  "contact_send": "Send Message",
+  "about_title": "About Me",
+
+"about_subtitle": "Your Trusted Local Partner in Argentina",
+
+"about_p1": "My name is Claudio Ríos, and throughout my professional career I have specialized in Finance and Information Systems.",
+
+"about_p2": "After many years of experience, I decided to embrace a new challenge and dedicate myself to helping international buyers and investors discover opportunities in Argentina.",
+
+"about_p3": "I understand that purchasing a property or accessing investment markets abroad involves much more than making a financial decision. It requires local knowledge, transparency, and someone you can trust to guide you throughout the process.",
+
+"about_values": "What I Offer",
+
+"about_value1": "Personalized attention.",
+
+"about_value2": "Local knowledge and independent guidance.",
+
+"about_value3": "Support throughout the entire process.",
+
+"about_value4": "Long-term relationships built on trust.",
+
+"about_footer": "My commitment is not only to help you invest in Argentina, but also to provide confidence and local support every step of the way."
 }
