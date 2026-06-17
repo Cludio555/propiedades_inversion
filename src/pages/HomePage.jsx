@@ -40,7 +40,7 @@ export default function HomePage() {
             }}
         >
 
-            {/* Capa oscura */}
+            {/* Capa oscura    */}
             <div
                 style={{
                     position: 'absolute',
