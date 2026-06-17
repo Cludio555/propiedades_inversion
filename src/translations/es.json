@@ -30,6 +30,18 @@
 "market3": "Acceso a alternativas de inversión en Argentina y en el exterior.",
 "market4": "Proceso simple y personalizado.",
 
-"market_footer": "Invertir comienza con tener la estructura correcta."
+"market_footer": "Invertir comienza con tener la estructura correcta.",
 
+"contact_title": "Contáctame",
+"contact_info": "Información de Contacto",
+"contact_phone": "Teléfono / WhatsApp",
+"contact_whatsapp": "Enviar WhatsApp",
+"contact_email": "Correo Electrónico",
+"contact_response": "* Respondemos todos los pedidos de informes en menos de 24 horas hábiles.",
+"contact_form_title": "Déjame tu consulta o pedido de informe",
+"contact_your_email": "Tu correo electrónico",
+"contact_email_placeholder": "[nombre@ejemplo.com](mailto:nombre@ejemplo.com)",
+"contact_message_label": "Envíame tu consulta",
+"contact_message_placeholder": "...",
+"contact_send": "Enviar mensaje"
 }

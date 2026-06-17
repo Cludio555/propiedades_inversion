@@ -1,7 +1,6 @@
 {
 "titulo": "SCOPRI L'ARGENTINA",
 
-
 "subtitulo": "Un paese di paesaggi straordinari, gastronomia di livello mondiale e opportunità uniche.",
 
 "descripcion": "Investi, vivi o goditi le tue vacanze in uno dei paesi più belli del mondo. Aiuto personalmente acquirenti e investitori internazionali a trovare la proprietà giusta in qualsiasi parte dell'Argentina. Il mio obiettivo è diventare il tuo partner di fiducia e accompagnarti durante tutto il processo.",
@@ -31,7 +30,18 @@
 "market3": "Accesso a opportunità di investimento in Argentina e all'estero.",
 "market4": "Processo semplice e personalizzato.",
 
-"market_footer": "Investire inizia con la giusta struttura."
+"market_footer": "Investire inizia con la giusta struttura.",
 
-
+"contact_title": "Contattami",
+"contact_info": "Informazioni di contatto",
+"contact_phone": "Telefono / WhatsApp",
+"contact_whatsapp": "Invia un messaggio WhatsApp",
+"contact_email": "Posta elettronica",
+"contact_response": "* Rispondiamo a tutte le richieste entro 24 ore lavorative.",
+"contact_form_title": "Lasciami la tua richiesta o domanda",
+"contact_your_email": "Il tuo indirizzo e-mail",
+"contact_email_placeholder": "[nome@esempio.com](mailto:nome@esempio.com)",
+"contact_message_label": "Scrivi il tuo messaggio",
+"contact_message_placeholder": "...",
+"contact_send": "Invia messaggio"
 }

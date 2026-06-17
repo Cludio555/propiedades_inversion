@@ -1,37 +1,47 @@
 {
-"titulo": "DISCOVER ARGENTINA",
+  "titulo": "DISCOVER ARGENTINA",
 
+  "subtitulo": "A country of extraordinary landscapes, world-class gastronomy and endless opportunities.",
 
-"subtitulo": "A country of extraordinary landscapes, world-class gastronomy and endless opportunities.",
+  "descripcion": "Invest, live or enjoy your vacations in one of the most beautiful countries in the world. I personally help international buyers and investors find the right property anywhere in Argentina. More than finding a property, my commitment is to become your trusted local partner and accompany you throughout the process.",
 
-"descripcion": "Invest, live or enjoy your vacations in one of the most beautiful countries in the world. I personally help international buyers and investors find the right property anywhere in Argentina. More than finding a property, my commitment is to become your trusted local partner and accompany you throughout the process.",
+  "zoom": "Schedule a Zoom Meeting",
 
-"zoom": "Schedule a Zoom Meeting",
+  "realestate_title": "Real Estate Concierge",
+  "propertyfinder": "Property Finder",
 
-"realestate_title": "Real Estate Concierge",
-"propertyfinder": "Property Finder",
+  "realestate_description": "I find real estate opportunities aligned with your goals and provide full support throughout the buying process.",
 
-"realestate_description": "I find real estate opportunities aligned with your goals and provide full support throughout the buying process.",
+  "service1": "Houses, lots, farmland and rental or Airbnb properties.",
+  "service2": "Neighborhood and area analysis.",
+  "service3": "Safety, schools, transportation and lifestyle.",
+  "service4": "Rental income potential and long-term appreciation.",
+  "service5": "Support throughout the entire purchasing process.",
 
-"service1": "Houses, lots, farmland and rental or Airbnb properties.",
-"service2": "Neighborhood and area analysis.",
-"service3": "Safety, schools, transportation and lifestyle.",
-"service4": "Rental income potential and long-term appreciation.",
-"service5": "Support throughout the entire purchasing process.",
+  "service_premium": "Personalized search and premium services.",
 
-"service_premium": "Personalized search and premium services.",
+  "capitalmarket_title": "Capital Markets Access",
+  "account_opening": "Investment Account Opening",
 
-"capitalmarket_title": "Capital Markets Access",
-"account_opening": "Investment Account Opening",
+  "capitalmarket_description": "I guide you through the process of accessing financial markets, both locally and internationally.",
 
-"capitalmarket_description": "I guide you through the process of accessing financial markets, both locally and internationally.",
+  "market1": "Investment account opening.",
+  "market2": "Initial guidance and personalized support.",
+  "market3": "Access to investment alternatives in Argentina and abroad.",
+  "market4": "Simple and customized process.",
 
-"market1": "Investment account opening.",
-"market2": "Initial guidance and personalized support.",
-"market3": "Access to investment alternatives in Argentina and abroad.",
-"market4": "Simple and customized process.",
+  "market_footer": "Investing begins with having the right structure.",
 
-"market_footer": "Investing begins with having the right structure."
-
-
+  "contact_title": "Contact Me",
+  "contact_info": "Contact Information",
+  "contact_phone": "Phone / WhatsApp",
+  "contact_whatsapp": "Send WhatsApp Message",
+  "contact_email": "Email",
+  "contact_response": "* We respond to all inquiries within 24 business hours.",
+  "contact_form_title": "Send Me Your Inquiry or Request",
+  "contact_your_email": "Your Email Address",
+  "contact_email_placeholder": "name@example.com",
+  "contact_message_label": "Your Message",
+  "contact_message_placeholder": "...",
+  "contact_send": "Send Message"
 }
