@@ -49,7 +49,7 @@ export default function HomePage() {
                 }}
             />
 
-            {/* Selector de idioma */}
+            {/* Selector de idioma
             <div
                 className="position-absolute top-0 end-0 p-4"
                 style={{ zIndex: 100 }}
@@ -65,7 +65,7 @@ export default function HomePage() {
                     <option value="de">🇩🇪 Deutsch</option>
                 </select>
             </div>
-
+            */}
             {/* Contenido */}
             <div
                 className="container text-center text-white"
