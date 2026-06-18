@@ -41,11 +41,11 @@ export default function AboutPage() {
                         {t("about_p1")}
                     </p>
 
-                    <p>
+                    <p className="lead">
                         {t("about_p2")}
                     </p>
 
-                    <p>
+                    <p className="lead">
                         {t("about_p3")}
                     </p>
 

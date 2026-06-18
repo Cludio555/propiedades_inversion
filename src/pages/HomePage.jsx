@@ -96,10 +96,11 @@ export default function HomePage() {
                     >
                         {t("descripcion")}
                     </p>
-
+                    {/*
                     <button className="btn btn-light btn-lg mt-4 px-5 py-3">
                         {t("zoom")}
                     </button>
+					*/}
 
                 </div>
             </div>
