@@ -115,7 +115,7 @@ style={{ padding: '80px 0', backgroundColor: '#f8f9fa' }}
           <input
             type="hidden"
             name="_next"
-            value="https://webint-gamma.vercel.app/gracias"
+            value="https://propiedadesinversion.vercel.app/Gracias"
           />
 
           <input
