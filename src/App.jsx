@@ -43,7 +43,7 @@ function App() {
         />
 
         <Route
-          path="/Gracias"
+          path="/gracias"
           element={<Gracias />}
         />
 
