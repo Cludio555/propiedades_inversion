@@ -7,6 +7,7 @@ import WhyArgentinaPage from './pages/WhyArgentinaPage';
 import ServicesPage from './pages/ServicesPage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
+import Gracias from './pages/Gracias';
 
 function App() {
   return (
@@ -40,6 +41,12 @@ function App() {
           path="/contact"
           element={<ContactPage />}
         />
+
+        <Route
+          path="/Gracias"
+          element={<Gracias />}
+        />
+
 
       </Routes>
 
