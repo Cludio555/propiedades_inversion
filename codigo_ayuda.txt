@@ -8,6 +8,6 @@ Pasos para subir modificaciones
 -- git add .
 2) Ponle un nombre a este paquete de cambios:
 -- git commit -m "Agregado sistema de navegacion y formulario de contacto"
-git commit -m "ajustes para pagina Gracias05"
+git commit -m "modifique para el mail se trabaje en el worker"
 3) Sube el código a tu repositorio existente:.
 -- git push origin main
