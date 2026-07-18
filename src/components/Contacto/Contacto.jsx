@@ -13,7 +13,7 @@ export default function Contacto() {
     setStatus('Enviando...');
 
     // REEMPLAZA ESTA URL POR LA QUE TE DA TU WORKER AL DESPLEGARLO
-    const WORKER_URL = "https://workers.dev";
+    const WORKER_URL = "https://contactfrombackend.riosclaudiop.workers.dev";
 
     try {
       const response = await fetch(WORKER_URL, {
