@@ -10,7 +10,7 @@ export default function Header() {
 
                 <Link
                     className="navbar-brand fw-bold"
-                    to="/"
+                    to="/" translate="no"
                 >
                     Real Estate and Capital Markets
                 </Link>
