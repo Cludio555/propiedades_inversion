@@ -37,7 +37,7 @@ export default function Contacto() {
         
         // Simula la redirección automática a la página de gracias tras 2 segundos si lo deseas
         setTimeout(() => {
-          window.location.href = "https://propiedadesinversion.vercel.app/gracias";
+          window.location.href = "https://latamventuresrealty.com/gracias";
         }, 2000);
 
       } else {
