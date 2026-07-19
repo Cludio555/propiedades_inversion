@@ -12,7 +12,7 @@ export default function Header() {
                     className="navbar-brand fw-bold"
                     to="/"
                 >
-                    Argentina Property Advisor
+                    Real Estate and Capital Markets
                 </Link>
 
                 <button
@@ -35,31 +35,31 @@ export default function Header() {
                     <ul className="navbar-nav ms-auto">
 
                         <li className="nav-item">
-                            <Link className="nav-link" to="/">
+                            <Link className="nav-link text-warning" to="/">
                                 Home
                             </Link>
                         </li>
 
                         <li className="nav-item">
-                            <Link className="nav-link" to="/why-argentina">
-                                Why Argentina
+                            <Link className="nav-link text-warning" to="/why-argentina">
+                                Why_Argentina
                             </Link>
                         </li>
 
                         <li className="nav-item">
-                            <Link className="nav-link" to="/services">
+                            <Link className="nav-link text-warning" to="/services">
                                 Services
                             </Link>
                         </li>
 
                         <li className="nav-item">
-                            <Link className="nav-link" to="/about">
-                                About Me
+                            <Link className="nav-link text-warning" to="/about">
+                                About_Me
                             </Link>
                         </li>
 
                         <li className="nav-item">
-                            <Link className="nav-link" to="/contact">
+                            <Link className="nav-link text-warning" to="/contact">
                                 Contact
                             </Link>
                         </li>

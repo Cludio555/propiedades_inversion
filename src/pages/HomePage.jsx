@@ -20,13 +20,13 @@ export default function HomePage() {
                 style={{
                     position: 'absolute',
                     inset: 0,
-                    background: 'rgba(0,0,0,.45)'
+                    background: 'rgba(0,0,0,0)'
                 }}
             />
 
             {/* Contenido */}
             <div
-                className="container text-center text-white"
+                className="container text-center text-black"
                 style={{
                     position: 'relative',
                     zIndex: 10,
