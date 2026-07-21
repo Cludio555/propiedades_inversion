@@ -24,7 +24,8 @@ export default function Contacto() {
         body: JSON.stringify({
           email: email,
           mensaje: mensaje,
-          clientId: "mi_proyecto_actual" // Este ID le dice al Worker que use claudiorpc@yahoo.com.ar
+          clientId: "propiedades_inversion_mundial" // Este ID le dice al Worker que use claudiorpc@yahoo.com.ar
+          origen: "Sobre propiedades e inversion"       // Nombre de la web para la carpeta		  
         }),
       });
 
