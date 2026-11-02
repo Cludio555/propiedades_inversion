@@ -1,6 +1,6 @@
+"use client";
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import img1 from '../assets/images/inicio.png';
 
 export default function HomePage() {
     const { t } = useTranslation();
@@ -8,7 +8,7 @@ export default function HomePage() {
     return (
         <section
             style={{
-                backgroundImage: `url(${img1})`,
+                backgroundImage: "url('/images/inicio.png')",
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 minHeight: '100vh',

@@ -1,18 +1,22 @@
+"use client";
 import React, { useState } from 'react';
+import { useRouter } from 'next/navigation';
 import { useTranslation } from 'react-i18next';
 
 export default function Contacto() {
   const { t } = useTranslation();
+  const router = useRouter();
 
   const [email, setEmail] = useState('');
   const [mensaje, setMessage] = useState('');
-  const [status, setStatus] = useState(''); // Maneja el estado visual del envío ('Cargando', 'Éxito', etc.)
+  const [status, setStatus] = useState(''); // '', 'sending', 'success', 'error', 'connection'
+  const [errorDetail, setErrorDetail] = useState('');
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setStatus('Enviando...');
+    setStatus('sending');
+    setErrorDetail('');
 
-    // REEMPLAZA ESTA URL POR LA QUE TE DA TU WORKER AL DESPLEGARLO
     const WORKER_URL = "https://contactfrombackend.riosclaudiop.workers.dev";
 
     try {
@@ -24,29 +28,28 @@ export default function Contacto() {
         body: JSON.stringify({
           email: email,
           mensaje: mensaje,
-          clientId: "propiedades_inversion_mundial", // Este ID le dice al Worker que use claudiorpc@yahoo.com.ar
-          origen: "Sobre propiedades e inversion"       // Nombre de la web para la carpeta		  
+          clientId: "propiedades_inversion_mundial",
+          origen: "Sobre propiedades e inversion"
         }),
       });
 
       const data = await response.json();
 
       if (response.ok) {
-        setStatus('¡Mensaje enviado con éxito!');
+        setStatus('success');
         setEmail('');
         setMessage('');
-        
-        // Simula la redirección automática a la página de gracias tras 2 segundos si lo deseas
-        setTimeout(() => {
-          window.location.href = "https://latamventuresrealty.com/gracias";
-        }, 2000);
 
+        setTimeout(() => {
+          router.push('/gracias');
+        }, 2000);
       } else {
-        setStatus(`Error: ${data.error || 'No se pudo enviar'}`);
+        setStatus('error');
+        setErrorDetail(data.error || '');
       }
     } catch (error) {
-      console.error("Error de conexión:", error);
-      setStatus('Hubo un problema de conexión con el servidor.');
+      console.error("Connection error:", error);
+      setStatus('connection');
     }
   };
 
@@ -75,9 +78,8 @@ export default function Contacto() {
             <p className="mb-3">
               <strong>✉️ {t("contact_email")}:</strong>
               <br />
-              {/* Ocultamos tu email real de la etiqueta href para evitar scrapers de spam informáticos */}
-              <span className="text-primary" style={{ cursor: 'pointer' }}>
-                Formulario en línea
+              <span className="text-primary">
+                {t("contact_online_form")}
               </span>
             </p>
 
@@ -92,7 +94,6 @@ export default function Contacto() {
               {t("contact_form_title")}
             </h4>
 
-            {/* Cambiamos el action tradicional por el onSubmit controlado de React */}
             <form onSubmit={handleSubmit}>
               <div className="mb-3">
                 <label className="form-label">
@@ -127,15 +128,26 @@ export default function Contacto() {
               <button
                 type="submit"
                 className="btn btn-primary w-100 py-2"
-                disabled={status === 'Enviando...'}
+                disabled={status === 'sending'}
               >
-                {status === 'Enviando...' ? 'Enviando...' : t("contact_send")}
+                {status === 'sending' ? t("contact_sending") : t("contact_send")}
               </button>
 
-              {/* Muestra un cartel abajo indicando el estado del envío */}
-              {status && (
-                <div className={`alert mt-3 ${status.includes('éxito') ? 'alert-success' : 'alert-info'}`}>
-                  {status}
+              {status === 'success' && (
+                <div className="alert alert-success mt-3">
+                  {t("contact_success")}
+                </div>
+              )}
+
+              {status === 'error' && (
+                <div className="alert alert-danger mt-3">
+                  {t("contact_error")} {errorDetail}
+                </div>
+              )}
+
+              {status === 'connection' && (
+                <div className="alert alert-danger mt-3">
+                  {t("contact_connection_error")}
                 </div>
               )}
             </form>

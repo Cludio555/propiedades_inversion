@@ -1,7 +1,7 @@
 import React from 'react';
-import Contacto from '../components/Contacto/Contacto'; // Tu componente del formulario
+import Contacto from '@/components/Contacto/Contacto';
 
-export default function ContactoPage() {
+export default function ContactPage() {
   return (
     <main style={{ minHeight: '80vh', padding: '40px 0' }}>
       <div className="container">
