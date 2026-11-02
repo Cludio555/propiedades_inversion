@@ -29,13 +29,13 @@ export default function Header() {
               <Link className="nav-link text-warning" href="/">Home</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link text-warning" href="/why-argentina">Why_Argentina</Link>
+              <Link className="nav-link text-warning" href="/why-argentina">Why Argentina</Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link text-warning" href="/services">Services</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link text-warning" href="/about">About_Me</Link>
+              <Link className="nav-link text-warning" href="/about">About Me</Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link text-warning" href="/contact">Contact</Link>
@@ -46,8 +46,8 @@ export default function Header() {
                 value={i18n.language}
                 onChange={(e) => i18n.changeLanguage(e.target.value)}
               >
-                <option value="es">🇪🇸 ES</option>
                 <option value="en">🇬🇧 EN</option>
+				<option value="es">🇪🇸 ES</option>
               </select>
             </li>
           </ul>
