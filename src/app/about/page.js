@@ -14,12 +14,11 @@ export default function AboutPage() {
                     {/* Cuando tengas la foto, descomenta esto */}
                     
                     <img
-                        src="/images/claudio.jpg"
+                        src="/images/claudio.png"
                         alt="Claudio Ríos"
                         className="img-fluid rounded shadow"
                         style={{ maxWidth: "300px" }}
                     />
-                    
 
                 </div>
 
